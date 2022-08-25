@@ -33,8 +33,8 @@
 		data() {
 			return {
 				form: {
-					mobile: "",
-					password: '',
+					mobile: "18080064363",
+					password: '18080064363',
 					code: ""
 				},
 				tips: '验证码',
