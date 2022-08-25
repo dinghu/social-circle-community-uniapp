@@ -1,0 +1,305 @@
+{
+	"easycom": {
+		"^u-(.*)": "@/uview-ui/components/u-$1/u-$1.vue"
+	},
+	"pages": [{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "首页",
+				"backgroundColor": "#fff",
+				"navigationBarTextStyle": "black",
+				"enablePullDownRefresh": true,
+				"navigationStyle": "custom"
+			}
+		}, {
+			"path": "pages/my/my",
+			"style": {
+				"navigationBarTitleText": "我的"
+			}
+		}, {
+			"path": "pages/post/detail",
+			"style": {
+				"navigationBarTitleText": "帖子详情"
+			}
+		}, {
+			"path": "pages/user/login",
+			"style": {
+				"navigationBarTitleText": "登录"
+			}
+		}, {
+			"path": "pages/user/home",
+			"style": {
+				"navigationBarTitleText": "个人主页",
+				"navigationStyle": "custom",
+				"navigationBarTextStyle": "white"
+			}
+		},
+		{
+			"path": "pages/topic/detail",
+			"style": {
+				"navigationStyle": "custom",
+				"enablePullDownRefresh": true,
+				"navigationBarTextStyle": "white"
+			}
+		}, {
+			"path": "pages/discuss/detail",
+			"style": {
+				"navigationBarTitleText": "圈话题"
+			}
+		}, {
+			"path": "pages/my/discuss",
+			"style": {
+				"navigationBarTitleText": "我的话题"
+			}
+		}, {
+			"path": "pages/my/topic",
+			"style": {
+				"navigationBarTitleText": "我的圈子"
+			}
+		}, {
+			"path": "pages/my/post",
+			"style": {
+				"navigationBarTitleText": "我的帖子"
+			}
+		}, {
+			"path": "pages/my/thumb",
+			"style": {
+				"navigationBarTitleText": "点赞的帖子"
+			}
+		}, {
+			"path": "pages/my/collect",
+			"style": {
+				"navigationBarTitleText": "我的收藏"
+			}
+		}, {
+			"path": "pages/post/add",
+			"style": {
+				"navigationBarTitleText": "发布动态"
+			}
+		}, {
+			"path": "pages/message/message",
+			"style": {
+				"navigationBarTitleText": "消息"
+			}
+		}, {
+			"path": "pages/message/list",
+			"style": {
+				"navigationBarTitleText": "消息"
+			}
+		}, {
+			"path": "pages/message/follow",
+			"style": {
+				"navigationBarTitleText": "关注消息"
+			}
+		},
+		{
+			"path": "pages/message/zan",
+			"style": {
+				"navigationBarTitleText": "点赞消息"
+			}
+		},
+		{
+			"path": "pages/message/comment",
+			"style": {
+				"navigationBarTitleText": "评论消息"
+			}
+		},
+		{
+			"path": "pages/my/fans",
+			"style": {
+				"navigationBarTitleText": "我的粉丝"
+			}
+		},
+		{
+			"path": "pages/my/follow",
+			"style": {
+				"navigationBarTitleText": "我的关注"
+			}
+		}, {
+			"path": "pages/topic/add/add",
+			"style": {
+				"navigationBarTitleText": "创建圈子"
+			}
+		}, {
+			"path": "pages/more/more",
+			"style": {
+				"enablePullDownRefresh": true,
+				"navigationStyle": "custom"
+			}
+		}, {
+			"path": "pages/topic/class-list",
+			"style": {
+				"navigationBarTitleText": "圈子分类",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/discuss/add",
+			"style": {
+				"navigationBarTitleText": "创建话题"
+			}
+		}, {
+			"path": "pages/user/edit-info/edit",
+			"style": {
+				"navigationBarTitleText": "用户信息"
+			}
+		}, {
+			"path": "pages/user/edit-info/submit",
+			"style": {
+				"navigationBarTitleText": "编辑信息",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/topic/list",
+			"style": {
+				"navigationBarTitleText": "圈子列表",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/jump/jump",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/post/video-detail",
+			"style": {
+				"navigationBarTitleText": "帖子详情",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/chat/chat",
+			"style": {
+				"navigationBarTitleText": "私信",
+				"enablePullDownRefresh": false
+				// "navigationStyle": "custom"
+			}
+
+		}, {
+			"path": "pages/discuss/list",
+			"style": {
+				"navigationBarTitleText": "圈话题",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/choose-topic/choose-topic",
+			"style": {
+				"navigationBarTitleText": "选择圈子",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/webview/webview",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/topic/topic-user",
+			"style": {
+				"navigationBarTitleText": "圈子用户",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom"
+			}
+
+		}, {
+			"path": "pages/user/sms-login",
+			"style": {
+				"navigationBarTitleText": "登录",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/topic/info-edit",
+			"style": {
+				"navigationBarTitleText": "圈子信息",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/topic/add/shoose-class",
+			"style": {
+				"navigationBarTitleText": "选择类目",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/topic/admin",
+			"style": {
+				"navigationBarTitleText": "圈管理员",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/vote/vote",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/choose-discuss/choose-discuss",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/search/search",
+			"style": {
+				"navigationBarTitleText": "搜索",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/post/comment-more",
+			"style": {
+				"navigationBarTitleText": "评论详情",
+				"enablePullDownRefresh": false
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "兴趣圈",
+		"navigationBarBackgroundColor": "#FFFFFF",
+		"backgroundColor": "#FFFFFF"
+	},
+	"tabBar": {
+		"color": "#7A7E83",
+		"selectedColor": "#2c2c2c",
+		"borderStyle": "white",
+		"backgroundColor": "#ffffff",
+		"list": [{
+				"pagePath": "pages/index/index",
+				"iconPath": "static/tabbar/home-1.png",
+				"selectedIconPath": "static/tabbar/home.png",
+				"text": "首页"
+			},
+			{
+				"pagePath": "pages/more/more",
+				"iconPath": "static/tabbar/quanzi-1.png",
+				"selectedIconPath": "static/tabbar/quanzi.png",
+				"text": "圈子"
+			},
+			{
+				"pagePath": "pages/message/message",
+				"iconPath": "static/tabbar/msg-1.png",
+				"selectedIconPath": "static/tabbar/msg.png",
+				"text": "消息"
+			},
+			{
+				"pagePath": "pages/my/my",
+				"iconPath": "static/tabbar/my-1.png",
+				"selectedIconPath": "static/tabbar/my.png",
+				"text": "我的"
+			}
+		]
+	}
+}
