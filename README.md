@@ -16,6 +16,7 @@ uniapp+uview
 1.  服务端使用springboot+sharding+redis+mysql等，支持websocket私信即时聊天
 2.  后台管理系统elementui框架开发，比较简略
 3.  前端支持H5 app 小程序等 使用uniapp 开发
+4.  如需获取服务端代码或进行定制开发，请联系QQ微信同号：443409972
 
 程序截图
 
